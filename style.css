@@ -1,0 +1,57 @@
+body {
+  font-family: Arial;
+  background: #6e84b2;
+}
+
+/* Cards */
+.card-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Detail Section */
+#detailSection {
+  padding: 20px;
+}
+
+/* Tabs */
+.tabs {
+  margin-top: 20px;
+}
+
+.tab {
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  background: #ddd;
+  margin-right: 10px;
+}
+
+.tab.active {
+  background: #6366f1;
+  color: white;
+}
+
+/* Content */
+.tab-content {
+  margin-top: 15px;
+}
+
+.hidden {
+  display: none;
+}
